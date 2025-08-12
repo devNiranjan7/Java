@@ -1,26 +1,26 @@
 package Shape;
 
-public class Square extends twoDShape{
+public class Square extends twoDShape {
     protected double side;
 
-    public Square(double side){
-        this.side=side;
+    public Square(double side) {
+        this.side = side;
     }
 
-    public double getSide(){
+    public double getSide() {
         return side;
     }
-    public void setSide(double side){
-        this.side=side;
+    public void setSide(double side) {
+        this.side = side;
     }
 
     @Override
-    public double perimeter(){
-        return 4*side;
+    public double perimeter() {
+        return 4 * side;
     }
 
     @Override
-    public double area(){
-        return side*side;
+    public double area() {
+        return side * side;
     }
 }
