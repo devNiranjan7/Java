@@ -1,4 +1,4 @@
-package Shape;
+package Shape.classShape;
 
 public class Rectangle extends twoDShape {
     protected double length;

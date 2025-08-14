@@ -1,4 +1,4 @@
-package Shape;
+package Shape.classShape;
 
 public class testCase {
     public static void main(String[] args) {

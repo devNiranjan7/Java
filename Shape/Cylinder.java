@@ -1,4 +1,4 @@
-package Shape;
+package Shape.classShape;
 
 import java.lang.Math;
 
@@ -27,7 +27,7 @@ public class Cylinder extends threeDShape {
 
     @Override
     public double surfaceArea() {
-        return 2 * Math.PI * radius * height;
+        return (2 * Math.PI * radius) * (radius + height);
     }
 
     @Override

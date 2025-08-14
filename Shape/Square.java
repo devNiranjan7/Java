@@ -1,4 +1,4 @@
-package Shape;
+package Shape.classShape;
 
 public class Square extends twoDShape {
     protected double side;

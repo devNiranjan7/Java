@@ -1,4 +1,4 @@
-package Shape;
+package Shape.classShape;
 
 import java.lang.Math;
 
